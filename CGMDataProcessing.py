@@ -20,7 +20,7 @@ CALIBRATION_CORRECTION_PERIOD = time(5,0,0,0) #for backward adjustment of the CG
 
 def clean_date_column(df):
     #validate date exists
-    date = False    
+    date = False
     cols = list(df)
     split = False
     date_column_index = 0
