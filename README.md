@@ -1,11 +1,14 @@
 # CGM Analysis
-This script will take in data from xDrip continuous Glucose tracking, Garmin Activity Data, Cronometer Nutritional Data, and Oura Sleep Data and generate several visuals to correlate food, activity, sleep and glucose response data.
+This script will take in data from xDrip continuous Glucose tracking, Garmin Activity Data, Cronometer Nutritional Data, and Oura Sleep Data and generate several visuals to correlate food, activity, sleep and glucose response data.  The step response is shown as a black line over a 4 hour timespan for each food/meal.  The graph is colored green in the "safe" glucose ranges of above 70 mmol/dl and below 120 mmol/dl.  If an activity was included in the 4 hour response window the graph will be colored blue and calorie and activity name is added for reference.
 
 ## Visuals
 * Glucose Step Response for each meal: Matplotlib or Bodeh available
+![MealActivity1](https://user-images.githubusercontent.com/50993714/164490776-af9265e1-7a5f-4228-abb5-edc90db9023a.png)
+![MealActivity](https://user-images.githubusercontent.com/50993714/164490767-afaf389a-7940-4817-a44f-7c3a519b0a35.png)
 * HeatMap displaying Glucose over time periods and showing corresponding meals.
+![HeatMap](https://user-images.githubusercontent.com/50993714/164490759-2cf3598b-d313-46a8-a8d4-9bec9ad208d3.png)
 * Multiplot showing all step responses.  Meals are selectable to compare step responses in the same time period.
-
+![MultiPlot](https://user-images.githubusercontent.com/50993714/164490734-4ace16a2-a499-4338-9816-fac4c48e9da2.png)
 ## Requirements
 
 In the root directory:
